@@ -6,8 +6,9 @@ Member(Entity) 안에는 member의 정보, team, role 있다.<br/>
 
 방법1. <br/>
 Member의 Dto를 따로 만들고, @ManyToOne의 fetch전략을 LAZY로 설정. <br/>
-ModelMapper이용하여 Member(Entity)와 MemberDto를 맵핑해서 select해온다.<br/>
+ModelMapper이용하여 Member(Entity)를 MemberDto와 맵핑해서 select해온다.<br/>
 (이때 Team과 Role은 가져오지 않음) <br/><br/>
 
-방법2.
-
+방법2. -> @NamedEntityGrap <br/>
+@NamedEntityGraph를 Member(Entity)에 달아준다. <br/>
+Repository에 List<Member> findAll을 만듦. -> 쿼리 하나로 Member, Team, Role을 전부 가져옴.
