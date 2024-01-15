@@ -4,7 +4,7 @@
 # 2. Member, Team, Role 3가지 select<br/><br/>
 
 
-개요
+개요 <br/>
 Member(Entity) 안에는 member의 정보, team, role 있다.<br/>
 이 상태에서 JPA의 findall을 하게되면 쿼리가 여려개 발생하다. <br/>
 단순 Member의 정보만을 원할 때는 쓸모없는 쿼리가 발생하기 때문에 좋지않음.<br/><br/>
