@@ -1,5 +1,5 @@
 # ///manytoone onetomany/// 
-# 쿼리 하나만 날려서 -> 
+# 쿼리 하나 -> 
 # 1. Member만 select <br/>
 # 2. Member, Team, Role 3가지 select<br/><br/>
 
