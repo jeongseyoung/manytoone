@@ -9,5 +9,5 @@ class Manytoone2ApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
+  
 }
