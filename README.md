@@ -2,7 +2,7 @@
 # 쿼리 하나 -> 
 # 1. Member만 select <br/>
 # 2. Member, Team, Role 3가지 select<br/><br/>
-
+ v 
 
 개요 <br/>
 Member(Entity) 안에는 member의 정보, team, role 있다.<br/>
