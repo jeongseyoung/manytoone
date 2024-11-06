@@ -24,7 +24,7 @@ Repository에 List<Member> findAll을 만듦. -> 쿼리 하나로 Member, Team, 
 
 
 @NamedEntityGraph란?<br/><br/><br/>
-
+    
 
 -참고자료<br/>
 https://www.youtube.com/watch?v=MpXdx8-qWzo&t=241s
