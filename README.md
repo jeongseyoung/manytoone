@@ -22,7 +22,7 @@ Modelmapper란?<br/><br/>
 Repository에 List<Member> findAll을 만듦. -> 쿼리 하나로 Member, Team, Role을 전부 가져옴. <br/>
 ![getMemberList3](https://github.com/jeongseyoung/manytoone/assets/19800292/b4b67e51-acf3-42f1-a8f7-e0589c7cdac8)
 
-
+   
 @NamedEntityGraph란?<br/><br/><br/>
     
 
