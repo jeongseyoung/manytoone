@@ -7,7 +7,7 @@ import com.example.manytoone2.service.saveService;
 import com.example.manytoone2.service.testService;
 
 import lombok.RequiredArgsConstructor;
-
+   
 @RestController
 @RequiredArgsConstructor
 public class testController {
