@@ -15,7 +15,7 @@ Member의 Dto를 따로 만들고, @ManyToOne의 fetch전략을 LAZY로 설정. 
 ModelMapper이용하여 Member(Entity)를 MemberDto와 맵핑해서 select해온다.<br/>
 (이때 Team과 Role은 가져오지 않음) <br/>
 ![getMemberList2](https://github.com/jeongseyoung/manytoone/assets/19800292/1e2de622-3742-4a39-8896-6888aa597657)
-       
+              
 Modelmapper란?<br/><br/>
 방법2. -> @NamedEntityGraph <br/>
 @NamedEntityGraph를 Member(Entity)에 달아준다. <br/>
